@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 760">
+    
+      <path d="M114 214 C106 160 130 110 200 106 C270 110 294 160 286 214 L280 186 L120 186 Z" fill="#1f1a24" stroke="#2b2238" stroke-width="3"/>
+    
+      <!-- рубашка нараспашку -->
+      <path d="M60 760 L70 430 C74 372 106 346 158 334 L200 350 L242 334 C294 346 326 372 330 430 L340 760 Z" fill="#3a3f5c" stroke="#2b2238" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M80 440 L320 440 M76 520 L324 520 M72 600 L328 600 M70 680 L330 680" stroke="#ffb03a" stroke-width="3" opacity=".45"/>
+      <path d="M110 380 L108 760 M150 350 L148 760 M250 350 L252 760 M290 380 L292 760" stroke="#ffb03a" stroke-width="3" opacity=".35"/>
+      <!-- футболка -->
+      <path d="M150 346 L200 362 L250 346 L262 760 L138 760 Z" fill="#2f9e72" stroke="#2b2238" stroke-width="3" stroke-linejoin="round"/>
+      <!-- пиксельное сердце -->
+      <g fill="#ffe36a" transform="translate(176 470)">
+        <rect x="6" y="0" width="12" height="6"/><rect x="30" y="0" width="12" height="6"/>
+        <rect x="0" y="6" width="48" height="12"/><rect x="6" y="18" width="36" height="6"/>
+        <rect x="12" y="24" width="24" height="6"/><rect x="18" y="30" width="12" height="6"/>
+      </g>
+      <!-- наушники на шее -->
+      <path d="M140 330 C150 372 250 372 260 330" stroke="#1d1d28" stroke-width="10" fill="none" stroke-linecap="round"/>
+      <rect x="120" y="318" width="34" height="46" rx="12" fill="#26263a" stroke="#2b2238" stroke-width="3"/>
+      <rect x="246" y="318" width="34" height="46" rx="12" fill="#26263a" stroke="#2b2238" stroke-width="3"/>
+      <rect x="128" y="328" width="18" height="26" rx="6" fill="#3ccf91"/>
+      <rect x="254" y="328" width="18" height="26" rx="6" fill="#3ccf91"/>
+    <!-- шея -->
+    <path d="M176 282 L224 282 L228 342 C214 356 186 356 172 342 Z" fill="#d9a07a" stroke="#2b2238" stroke-width="3"/>
+    <path d="M176 290 C190 312 210 312 224 290 L224 312 C210 326 190 326 176 312 Z" fill="#c08460"/>
+    <!-- уши -->
+    <ellipse cx="120" cy="228" rx="12" ry="20" fill="#d9a07a" stroke="#2b2238" stroke-width="3"/>
+    <ellipse cx="280" cy="228" rx="12" ry="20" fill="#d9a07a" stroke="#2b2238" stroke-width="3"/>
+    <!-- голова -->
+    <path d="M118 200 C118 138 158 108 200 108 C242 108 282 138 282 200 C282 240 270 264 250 283 C232 299 216 307 200 307 C184 307 168 299 150 283 C130 264 118 240 118 200 Z" fill="#d9a07a" stroke="#2b2238" stroke-width="3.5"/>
+    <path d="M128 240 C134 266 148 284 166 296 C150 290 132 270 126 246 Z" fill="#c08460" opacity=".6"/>
+    <!-- нос (постоянный) -->
+    <path d="M200 246 L196 254 L202 255" stroke="#c08460" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+      <!-- кепка задом наперёд -->
+      <path d="M112 182 C108 112 154 84 200 84 C246 84 292 112 288 182 C254 166 146 166 112 182 Z" fill="#2f9e72" stroke="#2b2238" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M200 84 L200 168" stroke="#2b2238" stroke-width="2" opacity=".5"/>
+      <path d="M150 96 C160 120 160 150 156 170 M250 96 C240 120 240 150 244 170" stroke="#2b2238" stroke-width="2" opacity=".35" fill="none"/>
+      <!-- застёжка снепбэка над лбом -->
+      <path d="M172 176 C176 160 224 160 228 176 Z" fill="#1f1a24" stroke="#2b2238" stroke-width="2.5"/>
+      <path d="M176 178 L224 178" stroke="#f0f0f5" stroke-width="4"/>
+      <circle cx="200" cy="90" r="6" fill="#26845f" stroke="#2b2238" stroke-width="2"/>
+      <!-- пряди из-под кепки -->
+      <path d="M114 182 L120 214 L128 190 L134 210 L140 184 Z M286 182 L280 214 L272 190 L266 210 L260 184 Z" fill="#1f1a24" stroke="#2b2238" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M180 178 L186 196 L194 180 L202 198 L210 180 L218 194 L222 178 Z" fill="#1f1a24" stroke="#2b2238" stroke-width="2.5" stroke-linejoin="round"/>
+    
+  </svg>

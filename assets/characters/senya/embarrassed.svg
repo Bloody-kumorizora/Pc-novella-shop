@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 760">
+    <path d="M148 190 Q167 189 186 184" stroke="#2b2238" stroke-width="6" fill="none" stroke-linecap="round"/> <path d="M214 184 Q233 189 252 190" stroke="#2b2238" stroke-width="6" fill="none" stroke-linecap="round"/>
+    
+    <clipPath id="clip168737118"><path d="M145 226 C145 199 191 199 191 226 C191 246.25 145 246.25 145 226 Z"/></clipPath>
+    <g clip-path="url(#clip168737118)">
+      <rect x="143" y="197" width="50" height="51.25" fill="#ffffff"/>
+      <circle cx="161" cy="228" r="13" fill="#6b4426"/>
+      <circle cx="161" cy="233" r="8.06" fill="#462c19"/>
+      <circle cx="161" cy="229" r="5.5" fill="#1b1424"/>
+      <circle cx="156" cy="222" r="4.2" fill="#fff"/>
+      <circle cx="166" cy="234" r="2" fill="#fff" opacity=".85"/>
+      
+      <rect x="143" y="237.745" width="50" height="12.504999999999995" fill="#d9a07a"/>
+    </g>
+    <!-- верхнее веко/ресницы -->
+    <path d="M142 224 C147 198 189 198 194 222"
+      stroke="#2b2238" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <path d="M147 239.745 C160 232.745 176 232.745 189 239.745" stroke="#2b2238" stroke-width="2.5" fill="none" stroke-linecap="round"/> 
+    <clipPath id="clip232526830"><path d="M209 226 C209 199 255 199 255 226 C255 246.25 209 246.25 209 226 Z"/></clipPath>
+    <g clip-path="url(#clip232526830)">
+      <rect x="207" y="197" width="50" height="51.25" fill="#ffffff"/>
+      <circle cx="225" cy="228" r="13" fill="#6b4426"/>
+      <circle cx="225" cy="233" r="8.06" fill="#462c19"/>
+      <circle cx="225" cy="229" r="5.5" fill="#1b1424"/>
+      <circle cx="220" cy="222" r="4.2" fill="#fff"/>
+      <circle cx="230" cy="234" r="2" fill="#fff" opacity=".85"/>
+      
+      <rect x="207" y="237.745" width="50" height="12.504999999999995" fill="#d9a07a"/>
+    </g>
+    <!-- верхнее веко/ресницы -->
+    <path d="M206 224 C211 198 253 198 258 222"
+      stroke="#2b2238" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <path d="M211 239.745 C224 232.745 240 232.745 253 239.745" stroke="#2b2238" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    
+  <g opacity="0.75">
+    <ellipse cx="148" cy="258" rx="17" ry="9" fill="#ff7a8a"/>
+    <ellipse cx="252" cy="258" rx="17" ry="9" fill="#ff7a8a"/>
+    <path d="M138 256 l6 -6 M148 258 l6 -6 M158 256 l6 -6 M242 256 l6 -6 M252 258 l6 -6 M262 256 l6 -6" stroke="#e0485d" stroke-width="2" stroke-linecap="round"/>
+  </g>
+    <path d="M186 274 q5 -5 9 0 q5 5 9 0 q5 -5 9 0" stroke="#2b2238" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M270 168 C262 182 262 192 270 194 C278 192 278 182 270 168 Z" fill="#9fd8ff" stroke="#2b2238" stroke-width="2.5"/></svg>

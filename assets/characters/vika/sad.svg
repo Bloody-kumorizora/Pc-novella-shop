@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 760">
+    <path d="M150 194 Q168 191 186 182" stroke="#2b2238" stroke-width="6" fill="none" stroke-linecap="round"/> <path d="M214 182 Q232 191 250 194" stroke="#2b2238" stroke-width="6" fill="none" stroke-linecap="round"/>
+    
+    <clipPath id="clip168744612"><path d="M145 226 C145 199 191 199 191 226 C191 246.25 145 246.25 145 226 Z"/></clipPath>
+    <g clip-path="url(#clip168744612)">
+      <rect x="143" y="197" width="50" height="51.25" fill="#ffffff"/>
+      <circle cx="167" cy="228" r="13" fill="#2f9e72"/>
+      <circle cx="167" cy="233" r="8.06" fill="#1f674a"/>
+      <circle cx="167" cy="229" r="5.5" fill="#1b1424"/>
+      <circle cx="162" cy="222" r="4.2" fill="#fff"/>
+      <circle cx="172" cy="234" r="2" fill="#fff" opacity=".85"/>
+      <rect x="143" y="195" width="50" height="19.120000000000005" fill="#fbe0cf"/>
+      
+    </g>
+    <!-- верхнее веко/ресницы -->
+    <path d="M142 217.12 C147 212.12 189 212.12 194 217.12"
+      stroke="#2b2238" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <path d="M151 245.25 C162 249.25 174 249.25 185 245.25" stroke="#2b2238" stroke-width="2" fill="none" opacity=".6" stroke-linecap="round"/> 
+    <clipPath id="clip232169980"><path d="M209 226 C209 199 255 199 255 226 C255 246.25 209 246.25 209 226 Z"/></clipPath>
+    <g clip-path="url(#clip232169980)">
+      <rect x="207" y="197" width="50" height="51.25" fill="#ffffff"/>
+      <circle cx="233" cy="228" r="13" fill="#2f9e72"/>
+      <circle cx="233" cy="233" r="8.06" fill="#1f674a"/>
+      <circle cx="233" cy="229" r="5.5" fill="#1b1424"/>
+      <circle cx="228" cy="222" r="4.2" fill="#fff"/>
+      <circle cx="238" cy="234" r="2" fill="#fff" opacity=".85"/>
+      <rect x="207" y="195" width="50" height="19.120000000000005" fill="#fbe0cf"/>
+      
+    </g>
+    <!-- верхнее веко/ресницы -->
+    <path d="M206 217.12 C211 212.12 253 212.12 258 217.12"
+      stroke="#2b2238" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+    <path d="M215 245.25 C226 249.25 238 249.25 249 245.25" stroke="#2b2238" stroke-width="2" fill="none" opacity=".6" stroke-linecap="round"/>
+    <path d="M186 278 Q200 266 214 278" stroke="#2b2238" stroke-width="3.5" fill="none" stroke-linecap="round"/></svg>

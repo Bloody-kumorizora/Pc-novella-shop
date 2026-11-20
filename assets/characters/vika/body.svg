@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 760">
+    
+      <!-- хвост -->
+      <path d="M262 150 C330 120 350 210 330 300 C318 360 300 400 296 450 C280 400 296 330 290 270 C286 220 276 190 262 150 Z" fill="#a8452f" stroke="#2b2238" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M110 220 C96 150 128 90 200 86 C272 90 304 150 290 222 L284 300 L270 220 L130 220 L116 300 Z" fill="#a8452f" stroke="#2b2238" stroke-width="3" stroke-linejoin="round"/>
+    
+      <!-- рубашка -->
+      <path d="M66 760 L76 430 C80 372 112 346 162 334 L200 352 L238 334 C288 346 320 372 324 430 L334 760 Z" fill="#f4f2fa" stroke="#2b2238" stroke-width="3.5" stroke-linejoin="round"/>
+      <!-- жилет -->
+      <path d="M84 760 L92 440 C96 392 118 366 156 352 L200 470 L244 352 C282 366 304 392 308 440 L316 760 Z" fill="#e5533d" stroke="#2b2238" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M92 440 C96 392 118 366 156 352 L170 390 C140 400 120 420 116 470 L112 760 L84 760 Z" fill="#c9432f"/>
+      <!-- воротник -->
+      <path d="M162 334 L200 352 L186 380 Z M238 334 L200 352 L214 380 Z" fill="#ffffff" stroke="#2b2238" stroke-width="3" stroke-linejoin="round"/>
+      <!-- бейдж -->
+      <rect x="226" y="500" width="64" height="34" rx="5" fill="#fff" stroke="#2b2238" stroke-width="2.5"/>
+      <rect x="232" y="506" width="12" height="12" fill="#ffb03a"/><rect x="236" y="510" width="4" height="4" fill="#e5533d"/>
+      <text x="248" y="521" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#2b2238">ВИКА</text>
+      <path d="M232 526 h50" stroke="#c9c3e6" stroke-width="2"/>
+      <!-- пуговицы -->
+      <circle cx="200" cy="560" r="5" fill="#fff" stroke="#2b2238" stroke-width="2"/>
+      <circle cx="200" cy="620" r="5" fill="#fff" stroke="#2b2238" stroke-width="2"/>
+    <!-- шея -->
+    <path d="M176 282 L224 282 L228 342 C214 356 186 356 172 342 Z" fill="#fbe0cf" stroke="#2b2238" stroke-width="3"/>
+    <path d="M176 290 C190 312 210 312 224 290 L224 312 C210 326 190 326 176 312 Z" fill="#eec0a6"/>
+    <!-- уши -->
+    <ellipse cx="120" cy="228" rx="12" ry="20" fill="#fbe0cf" stroke="#2b2238" stroke-width="3"/>
+    <ellipse cx="280" cy="228" rx="12" ry="20" fill="#fbe0cf" stroke="#2b2238" stroke-width="3"/>
+    <!-- голова -->
+    <path d="M118 200 C118 138 158 108 200 108 C242 108 282 138 282 200 C282 240 270 264 250 283 C232 299 216 307 200 307 C184 307 168 299 150 283 C130 264 118 240 118 200 Z" fill="#fbe0cf" stroke="#2b2238" stroke-width="3.5"/>
+    <path d="M128 240 C134 266 148 284 166 296 C150 290 132 270 126 246 Z" fill="#eec0a6" opacity=".6"/>
+    <!-- нос (постоянный) -->
+    <path d="M200 246 L196 254 L202 255" stroke="#eec0a6" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+      <path d="M116 214 C104 132 150 86 204 86 C262 88 300 130 286 214 C278 180 266 160 250 148 C236 176 206 192 166 196 C186 180 196 164 200 146 C178 170 150 186 122 214 Z" fill="#a8452f" stroke="#2b2238" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M150 112 C176 96 224 94 252 112" stroke="#cf6a4c" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <!-- резинка -->
+      <rect x="262" y="138" width="18" height="22" rx="5" fill="#ffb03a" stroke="#2b2238" stroke-width="2.5" transform="rotate(-25 271 149)"/>
+      <!-- прядь у щеки -->
+      <path d="M122 214 C116 250 120 280 132 300 C126 268 128 240 134 214 Z" fill="#a8452f" stroke="#2b2238" stroke-width="2.5"/>
+    
+  </svg>

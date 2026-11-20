@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="rw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b2d5c"/><stop offset="1" stop-color="#2a2045"/></linearGradient>
+    <linearGradient id="dusk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3a8c"/><stop offset=".6" stop-color="#ff8a6a"/><stop offset="1" stop-color="#ffcf7a"/></linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#58e0ff" stop-opacity=".45"/><stop offset="1" stop-color="#58e0ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#rw)"/>
+  <!-- окно -->
+  <rect x="1240" y="120" width="540" height="420" rx="10" fill="url(#dusk)" stroke="#1a1430" stroke-width="10"/>
+  <path d="M1510 120 L1510 540 M1240 330 L1780 330" stroke="#1a1430" stroke-width="10"/>
+  <g fill="#2a2045">
+    <rect x="1250" y="430" width="70" height="105"/><rect x="1330" y="400" width="60" height="135"/><rect x="1400" y="450" width="90" height="85"/>
+    <rect x="1520" y="420" width="80" height="115"/><rect x="1610" y="380" width="70" height="155"/><rect x="1690" y="440" width="80" height="95"/>
+  </g>
+  <g fill="#ffe36a"><rect x="1262" y="410" width="8" height="10"/><rect x="1299" y="463" width="8" height="10"/><rect x="1336" y="516" width="8" height="10"/><rect x="1373" y="459" width="8" height="10"/><rect x="1410" y="512" width="8" height="10"/><rect x="1447" y="455" width="8" height="10"/><rect x="1484" y="508" width="8" height="10"/><rect x="1521" y="451" width="8" height="10"/><rect x="1558" y="504" width="8" height="10"/><rect x="1595" y="447" width="8" height="10"/><rect x="1632" y="500" width="8" height="10"/><rect x="1669" y="443" width="8" height="10"/><rect x="1706" y="496" width="8" height="10"/><rect x="1743" y="439" width="8" height="10"/><rect x="1280" y="492" width="8" height="10"/><rect x="1317" y="435" width="8" height="10"/></g>
+  <!-- постер -->
+  <rect x="160" y="140" width="260" height="340" rx="8" fill="#ff7ad9" stroke="#1a1430" stroke-width="6"/>
+  <g transform="translate(230 220)" fill="#1d1630">
+    <rect x="0" y="40" width="120" height="20"/><rect x="20" y="20" width="80" height="20"/><rect x="40" y="0" width="40" height="20"/>
+    <rect x="0" y="100" width="120" height="16"/><rect x="30" y="130" width="60" height="14"/>
+  </g>
+  <!-- свечение монитора -->
+  <ellipse cx="760" cy="520" rx="520" ry="300" fill="url(#glow)"/>
+  <!-- стол -->
+  <rect x="200" y="700" width="1200" height="34" rx="6" fill="#8a6a4a" stroke="#1a1430" stroke-width="5"/>
+  <rect x="240" y="734" width="30" height="346" fill="#6e5238"/><rect x="1330" y="734" width="30" height="346" fill="#6e5238"/>
+  <!-- монитор -->
+  <rect x="470" y="380" width="580" height="320" rx="14" fill="#0e0b1c" stroke="#1a1430" stroke-width="6"/>
+  <rect x="490" y="400" width="540" height="270" rx="6" fill="#2a3a8c"/>
+  <path d="M490 600 L620 520 L720 580 L860 470 L1030 560 L1030 670 L490 670 Z" fill="#3ccf91" opacity=".7"/>
+  <circle cx="900" cy="460" r="34" fill="#ffe36a" opacity=".9"/>
+  <rect x="730" y="700" width="60" height="0"/>
+  <rect x="740" y="690" width="40" height="14" fill="#1a1430"/>
+  <!-- клавиатура и мышь -->
+  <rect x="560" y="660" width="0" height="0"/>
+  <rect x="570" y="676" width="340" height="22" rx="6" fill="#26263a" stroke="#ff7ad9" stroke-width="2"/>
+  <ellipse cx="980" cy="688" rx="20" ry="12" fill="#26263a" stroke="#58e0ff" stroke-width="2"/>
+  <!-- системный блок с подсветкой -->
+  <rect x="1120" y="420" width="220" height="280" rx="14" fill="#141024" stroke="#1a1430" stroke-width="6"/>
+  <rect x="1140" y="440" width="140" height="240" rx="8" fill="#1f1838" stroke="#58e0ff" stroke-width="3"/>
+  <circle cx="1210" cy="500" r="32" fill="none" stroke="#ff7ad9" stroke-width="5"/>
+  <circle cx="1210" cy="600" r="32" fill="none" stroke="#58e0ff" stroke-width="5"/>
+  <rect x="1300" y="450" width="20" height="8" rx="3" fill="#3ccf91"/>
+  <!-- лампа -->
+  <path d="M300 700 L320 560 L280 520" stroke="#ffd34d" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M240 520 L320 520 L300 470 L260 470 Z" fill="#ffd34d" stroke="#1a1430" stroke-width="4"/>
+  <!-- кровать -->
+  <rect x="1460" y="780" width="460" height="300" rx="20" fill="#5a4a8c" stroke="#1a1430" stroke-width="5"/>
+  <rect x="1500" y="740" width="200" height="80" rx="30" fill="#f4f2fa" stroke="#1a1430" stroke-width="4"/>
+  <rect x="0" y="1000" width="1920" height="80" fill="#1f1838" opacity=".6"/>
+</svg>
