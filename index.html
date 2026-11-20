@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Пиксель: три компьютера — визуальная новелла</title>
+  <meta name="description" content="Короткая визуальная новелла о походе в компьютерный магазин: три сборки ПК и три ноутбука с реальными ценами.">
+  <meta name="theme-color" content="#1d1630">
+  <link rel="icon" href="assets/ui/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&family=Unbounded:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- ── Сцена новеллы ── -->
+    <main id="stage" aria-label="Сцена">
+      <div id="bg-layer" aria-hidden="true">
+        <div class="bg" id="bg-a"></div>
+        <div class="bg" id="bg-b"></div>
+      </div>
+      <div id="chars" aria-hidden="true"></div>
+
+      <div id="hud">
+        <button class="icon-btn" id="btn-mute" type="button" aria-label="Без звука" title="Без звука (M)">
+          <img src="assets/ui/sound.svg" alt="" class="ico-sound"><img src="assets/ui/mute.svg" alt="" class="ico-mute">
+        </button>
+        <button class="icon-btn" id="btn-menu" type="button" aria-label="Меню" title="Меню (Esc)">
+          <img src="assets/ui/menu.svg" alt="">
+        </button>
+      </div>
+
+      <div id="choices" role="group" aria-label="Выбор" hidden></div>
+
+      <section id="dialog" aria-live="polite">
+        <div id="namebox" hidden></div>
+        <p id="text"></p>
+        <span id="next-ind" aria-hidden="true">▼</span>
+        <span class="dialog-hint" aria-hidden="true">Пробел / Enter / клик — дальше</span>
+      </section>
+    </main>
+
+    <!-- ── Экран «Магазин/Сборка» ── -->
+    <section id="shop" class="screen" hidden aria-label="Магазин и сборка">
+      <header class="shop-head">
+        <div class="shop-title">
+          <img src="assets/ui/logo.svg" alt="" width="36" height="36">
+          <div>
+            <h2 id="shop-build-title">Сборка</h2>
+            <p id="shop-build-tagline"></p>
+          </div>
+        </div>
+        <nav class="tabs" role="tablist" aria-label="Разделы магазина">
+          <button role="tab" class="tab" data-tab="pc" aria-selected="true" type="button">Сборка ПК</button>
+          <button role="tab" class="tab" data-tab="laptop" aria-selected="false" type="button">Ноутбук</button>
+          <button role="tab" class="tab" data-tab="code" aria-selected="false" type="button">Для кода</button>
+          <button role="tab" class="tab" data-tab="compare" aria-selected="false" type="button">Сравнение</button>
+        </nav>
+      </header>
+      <div class="shop-body">
+        <div class="shop-main" id="shop-main"></div>
+        <aside class="shop-side">
+          <div class="advisor">
+            <div class="advisor-portrait" id="advisor-portrait"></div>
+            <div class="bubble" id="advisor-bubble" aria-live="polite"></div>
+          </div>
+          <div class="total-box">
+            <span class="total-label" id="total-label">Итого за сборку</span>
+            <strong class="total-sum" id="total-sum">0 ₽</strong>
+            <button class="btn primary" id="btn-cart" type="button">Добавить в корзину</button>
+            <button class="btn" id="btn-shop-done" type="button" disabled>Готово — к разговору</button>
+          </div>
+        </aside>
+      </div>
+      <footer class="shop-foot" id="shop-foot"></footer>
+    </section>
+
+    <!-- ── Главное меню ── -->
+    <section id="title" class="screen" aria-label="Главное меню">
+      <div class="title-inner">
+        <img src="assets/ui/logo.svg" alt="" class="title-logo" width="72" height="72">
+        <h1>Пиксель<span>три компьютера</span></h1>
+        <p class="title-sub">Визуальная новелла о походе в компьютерный магазин — с настоящими ценами.</p>
+        <nav class="title-menu">
+          <button class="btn primary" id="btn-new" type="button">Начать</button>
+          <button class="btn" id="btn-continue" type="button" disabled>Продолжить</button>
+          <button class="btn" id="btn-settings" type="button">Настройки</button>
+          <button class="btn" id="btn-gallery" type="button">Галерея концовок</button>
+        </nav>
+        <p class="title-hint" id="title-hint">Звук включится после первого клика</p>
+      </div>
+    </section>
+
+    <!-- ── Модальные окна ── -->
+    <div class="modal" id="m-settings" hidden role="dialog" aria-modal="true" aria-labelledby="h-settings">
+      <div class="modal-card">
+        <h2 id="h-settings">Настройки</h2>
+        <label class="field">Скорость текста <output id="o-speed"></output>
+          <input type="range" id="s-speed" min="10" max="110" step="5">
+        </label>
+        <label class="field">Музыка <output id="o-music"></output>
+          <input type="range" id="s-music" min="0" max="100" step="5">
+        </label>
+        <label class="field">Эффекты <output id="o-sfx"></output>
+          <input type="range" id="s-sfx" min="0" max="100" step="5">
+        </label>
+        <label class="field">Голос <output id="o-voice"></output>
+          <input type="range" id="s-voice" min="0" max="100" step="5">
+        </label>
+        <label class="check"><input type="checkbox" id="s-mute"> Без звука</label>
+        <div class="modal-actions"><button class="btn primary" data-close type="button">Готово</button></div>
+      </div>
+    </div>
+
+    <div class="modal" id="m-gallery" hidden role="dialog" aria-modal="true" aria-labelledby="h-gallery">
+      <div class="modal-card wide">
+        <h2 id="h-gallery">Галерея концовок</h2>
+        <p class="muted" id="gallery-count"></p>
+        <div class="gallery" id="gallery"></div>
+        <div class="modal-actions"><button class="btn primary" data-close type="button">Закрыть</button></div>
+      </div>
+    </div>
+
+    <div class="modal" id="m-pause" hidden role="dialog" aria-modal="true" aria-labelledby="h-pause">
+      <div class="modal-card narrow">
+        <h2 id="h-pause">Пауза</h2>
+        <div class="stack">
+          <button class="btn primary" data-close type="button">Продолжить</button>
+          <button class="btn" id="p-settings" type="button">Настройки</button>
+          <button class="btn" id="p-gallery" type="button">Галерея концовок</button>
+          <button class="btn" id="p-title" type="button">Главное меню</button>
+        </div>
+        <p class="muted small">Прогресс сохраняется автоматически.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="m-ending" hidden role="dialog" aria-modal="true" aria-labelledby="h-ending">
+      <div class="modal-card ending-card">
+        <div class="ending-icon" id="ending-icon"></div>
+        <p class="ending-kicker">Концовка <span id="ending-num"></span></p>
+        <h2 id="h-ending"></h2>
+        <p id="ending-text"></p>
+        <div class="modal-actions">
+          <button class="btn" id="e-gallery" type="button">Галерея</button>
+          <button class="btn primary" id="e-title" type="button">В главное меню</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="fader" aria-hidden="true"></div>
+    <div id="toast" role="status" hidden></div>
+  </div>
+
+  <!-- данные (обычные JS-файлы — работают через file://) -->
+  <script src="data/products.js"></script>
+  <script src="data/story.js"></script>
+  <!-- движок -->
+  <script src="js/audio.js"></script>
+  <script src="js/characters.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+</html>
